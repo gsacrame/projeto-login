@@ -10,11 +10,12 @@ Grandes telas: acima de  1200px
 */
 
 @media screen and (min-width:768px) and (max-width:992px) {
-    body {
+    body { /*Configuracao para tablet */
         background-image: linear-gradient(to top, #49a09d, #5f2c82 );
     }
     section#login {
         width: 80vw;
+        height: 290px;
     }
 
     section#login > div#imagem {
@@ -30,12 +31,13 @@ Grandes telas: acima de  1200px
 }
 
 @media screen and (min-width:992px) {
-    body {
+    body { /*Configuracoes para desktop */
         background-image: linear-gradient(to top, #49a09d, #5f2c82 );
     }
 
     section#login {
         width: 970px;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -55,5 +57,7 @@ Grandes telas: acima de  1200px
 
     div#formulario > p {
         font-size: 1.2em;
+        margin: 20px 0px;
+
     }
 }
